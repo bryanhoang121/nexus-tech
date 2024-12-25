@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus Tech</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+      <!-- Navigation Menu -->
+      <ul>
+        <li><a href="#home" class="translate" data-key="home">Home</a></li>
+        <li class="dropdown">
+          <a href="#products" class="translate" data-key="products">Products</a>
+          <ul class="dropdown-menu">
+            <li><a href="https://yourchatplatform.com/product1" class="translate" data-key="product1">Product 1</a></li>
+            <li><a href="https://yourchatplatform.com/product2" class="translate" data-key="product2">Product 2</a></li>
+            <li><a href="https://yourchatplatform.com/product3" class="translate" data-key="product3">Product 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#services" class="translate" data-key="services">Services</a></li>
+        <li><a href="#contact" class="translate" data-key="contact">Contact</a></li>
+      </ul>
+    
+      <!-- Language Switcher -->
+      <div class="lang-switch">
+        <button onclick="setLanguage('en')">EN</button>
+        <button onclick="setLanguage('vi')">VI</button>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <h1 class="translate" data-key="welcome">Welcome to Nexus Tech</h1>
+        <p class="translate" data-key="slogan">Innovate the Future</p>
+        <a href="#services" class="btn translate" data-key="explore">Explore More</a>
+      </div>
+    </header>
+
+    <!-- Vision Message Section -->
+    <section id="vision" class="vision-message">
+      <div class="container">
+        <h2 class="translate" data-key="vision-title">Our Vision</h2>
+        <p class="translate" data-key="vision-description1">
+          At Nexus Tech, we are a startup with a mission to build future-ready products
+          that solve real-world problems. Our goal is to innovate and create solutions
+          that make life simpler, more efficient, and better for everyone.
+        </p>
+        <p class="translate" data-key="vision-description2">
+          Stay tuned as we develop groundbreaking products to address your needs!
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container">
+        <h2 class="translate" data-key="services-title">Our Services</h2>
+        <div class="services-grid">
+          <div class="service-item">
+            <img src="https://via.placeholder.com/80" alt="Service 1">
+            <h3 class="translate" data-key="service1-title">Web Development</h3>
+            <p class="translate" data-key="service1-description">Create modern, responsive websites for your business.</p>
+          </div>
+          <div class="service-item">
+            <img src="https://via.placeholder.com/80" alt="Service 2">
+            <h3 class="translate" data-key="service2-title">App Development</h3>
+            <p class="translate" data-key="service2-description">Build fast, scalable mobile apps for iOS and Android.</p>
+          </div>
+          <div class="service-item">
+            <img src="https://via.placeholder.com/80" alt="Service 3">
+            <h3 class="translate" data-key="service3-title">AI Solutions for Businesses</h3>
+            <p class="translate" data-key="service3-description">Streamline business operations with AI-driven solutions designed to enhance efficiency and decision-making.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="translate" data-key="contact">Contact Us</h2>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" class="translate" data-key="contact-name" required>
+          <input type="email" name="email" placeholder="Your Email" class="translate" data-key="contact-email" required>
+          <textarea name="message" placeholder="Your Message" class="translate" data-key="contact-message" rows="5" required></textarea>
+          <button type="submit" class="translate" data-key="contact-submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p class="translate" data-key="footer">&copy; 2024 Nexus Tech. All rights reserved.</p>
+        <ul class="footer-nav">
+          <li><a href="#home" class="translate" data-key="home">Home</a></li>
+          <li><a href="#services" class="translate" data-key="services">Services</a></li>
+          <li><a href="#contact" class="translate" data-key="contact">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
