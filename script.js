@@ -78,9 +78,11 @@ if (dropdown) {
   });
 }
 
-// Language toggle functionality
+// Language toggle functionality with active button highlight
 document.querySelectorAll('.lang-switch button').forEach((button) => {
   button.addEventListener('click', function () {
+    document.querySelectorAll('.lang-switch button').forEach((btn) => btn.classList.remove('active'));
+    this.classList.add('active');
     const selectedLanguage = this.getAttribute('data-lang');
     setLanguage(selectedLanguage); // Use the setLanguage function
   });
