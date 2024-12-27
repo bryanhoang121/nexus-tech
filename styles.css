@@ -228,6 +228,7 @@ header .btn:hover {
   margin-bottom: 20px;
 }
 
+/* Google Form Wrapper Styling */
 #contact form {
   max-width: 600px;
   margin: 20px auto;
@@ -235,6 +236,7 @@ header .btn:hover {
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Aligns fields properly */
 }
 
 #contact input,
@@ -259,6 +261,14 @@ header .btn:hover {
 #contact button:hover {
   background: #002266;
   transform: scale(1.05);
+}
+
+/* Custom adjustments for Google Form embedded elements */
+#contact iframe {
+  width: 100%;
+  border: none;
+  height: 100%; /* Adjust height as per need */
+  min-height: 500px; /* Minimum height for proper display */
 }
 
 /* Footer */
