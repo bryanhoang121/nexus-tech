@@ -192,6 +192,7 @@ header .btn:hover {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center; /* Center-align the content */
 }
 
 .service-item:hover {
@@ -200,8 +201,8 @@ header .btn:hover {
 }
 
 .service-item img {
-  width: 80px;
-  height: 80px;
+  width: 100px; /* Adjust size for better visibility */
+  height: 100px;
   margin-bottom: 15px;
 }
 
